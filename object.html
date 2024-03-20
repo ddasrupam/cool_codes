@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let obj={
+            name : "rupam",
+            pwd : 12345,
+            number :8787878787
+               
+        }
+        console.log(obj);
+        let objj= new Object
+        objj.name="rupam"
+        objj.pwd=15184848
+        console.log(objj);
+
+        //assign the object valu
+        let obj1={
+            name : "rupam",
+            number:5445154545,
+            pwd:15445454521
+        }
+        console.log(obj1);
+
+        //update the object value
+        obj1.name=254
+        console.log(obj1);
+        //adding key and valu inside the object
+        obj1.joy=5454545
+        console.log(obj1);
+        //delete keys 
+        delete obj1.joy
+        console.log(obj1);
+        //nested object
+        let obj2={
+            name:"rupam",
+            number:1345426,
+            pwd:{
+                phone:14454855,
+                number:48884848
+            }
+        }
+        console.log(obj2);
+        console.log(obj2.pwd.number);
+        //pass the function inside object
+        let obj3={
+            name:"rupam",
+            pwd:function x(){
+                console.log(444444444);
+            }
+        }
+        console.log(obj3);
+        obj3.pwd();
+        //pass the object inside function
+        let obj4={
+            name : "rupam",
+            pwd:544848484
+        }
+        function printobj4(obj4) {
+            let keys=object.keys(obj4);
+            for(let keys of keys){
+                log(keys,":",obj[keys])
+            }
+            
+        }
+    </script>
+
+    
+</head>
+<body>
+    
+</body>
+</html>
